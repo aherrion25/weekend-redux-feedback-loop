@@ -16,8 +16,8 @@ npm run client
 ```
 
 ## Task
-- [] create express route 
-- [] create component for header
+- [x] create express route 
+- [x] create component for header
 - [] create component for feeling page (view 1)
 - [] create reducer for feeling
 - [] have feeling save on click 'Next'
