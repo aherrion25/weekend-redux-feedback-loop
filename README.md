@@ -33,4 +33,4 @@ npm run client
 - [] create review page and navigate on click 'Next'
 - [] have all views (feeling, understanding, support, comment) display on review page
 - [] have views (feeling, understanding, support, comment) POST to server on click 'Submit'
-- [] create progress bar
+- [x] create progress bar
