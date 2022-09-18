@@ -5,6 +5,7 @@ import Header from '../Header/Header.jsx';
 import Home from '../Home/Home.jsx'
 import Feeling from '../Feeling/Feeling.jsx';
 import Understanding from '../Understanding/Understanding.jsx';
+import Support from '../Support/Support.jsx';
 import './App.css';
 
 function App() {
@@ -42,6 +43,10 @@ function App() {
           <Route exact path='/step/understanding'>
             <Understanding />
           </Route>
+          <Route exact path='/step/support'>
+            <Support />
+          </Route>
+
         </div>
       </Router>
       

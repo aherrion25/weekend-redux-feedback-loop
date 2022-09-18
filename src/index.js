@@ -9,7 +9,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 const feeling = (state = 0, action) => {
     if (action.type === 'SET_FEELING'){
-        // dispatch type = 'SET_FELLING' and payload with the value to set
+        // dispatch type = 'SET_FEELING' and payload with the value to set
         return action.payload;
     } else if (action.type === 'CLEAR_ALL') {
         return 0;
@@ -19,7 +19,17 @@ const feeling = (state = 0, action) => {
 
 const understanding= (state = 0, action) => {
     if (action.type === 'SET_UNDERSTANDING'){
-        // dispatch type = 'SET_FELLING' and payload with the value to set
+        // dispatch type = 'SET_UNDERSTANDING' and payload with the value to set
+        return action.payload;
+    } else if (action.type === 'CLEAR_ALL') {
+        return 0;
+    } 
+    return state;
+};
+
+const support= (state = 0, action) => {
+    if (action.type === 'SET_SUPPORT'){
+        // dispatch type = 'SET_SUPPORT' and payload with the value to set
         return action.payload;
     } else if (action.type === 'CLEAR_ALL') {
         return 0;
@@ -36,6 +46,7 @@ const storeInstance = createStore(
 
             feeling,
             understanding,
+            support,
 
 
         }

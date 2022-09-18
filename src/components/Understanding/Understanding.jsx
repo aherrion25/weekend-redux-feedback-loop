@@ -23,7 +23,7 @@ const Understanding = () => {
             <div>
                 <TextField size='small' value={understanding}  onChange={setUnderstanding} required id="understanding" className='input' 
                 type='number' InputProps={{inputProps: {min: 0, max: 5}}} />
-                <Button onClick={() => history.push('/step/understanding')} variant='outlined' className='button'>Next</Button>
+                <Button onClick={() => history.push('/step/support')} variant='outlined' className='button'>Next</Button>
             </div>
         </>
     )
