@@ -18,12 +18,12 @@ npm run client
 ## Task
 - [x] create express route 
 - [x] create component for header
-- [] create component for feeling page (view 1)
-- [] create reducer for feeling
-- [] have feeling save on click 'Next'
-- [] create component for understanding page (view 2) and navigate on click 'Next' 
-- [] create a reducer for understanding 
-- [] have understanding save on click 'Next'
+- [x] create component for feeling page (view 1)
+- [x] create reducer for feeling
+- [x] have feeling save on click 'Next'
+- [x] create component for understanding page (view 2) and navigate on click 'Next' 
+- [x] create a reducer for understanding 
+- [x] have understanding save on click 'Next'
 - [] create a component for support page (view 3) and a navigate on click 'Next'
 - [] create a reducer for support
 - [] have support save on click 'Next'

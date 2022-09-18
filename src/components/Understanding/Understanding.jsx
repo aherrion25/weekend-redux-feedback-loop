@@ -5,23 +5,23 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
 
-const Feeling = () => {
+const Understanding = () => {
     const history = useHistory();
-    const feeling = useSelector(store => store.feeling);
+    const understanding = useSelector(store => store.understanding);
     const dispatch = useDispatch();
 
-    const setFeeling = (event) => {
+    const setUnderstanding = (event) => {
         // passes data to reducer
-        dispatch({ type:'SET_FEELING', payload:event.target.value});
+        dispatch({ type:'SET_UNDERSTANDING', payload:event.target.value});
     };
 
 
     return(
         <>
-            <ProgressBar step={1} />
-            <h3>How do you feel</h3>
+            <ProgressBar step={2} />
+            <h3>How well do you understand the material</h3>
             <div>
-                <TextField size='small' value={feeling}  onChange={setFeeling} required id="feeling" className='input' 
+                <TextField size='small' value={understanding}  onChange={setUnderstanding} required id="understanding" className='input' 
                 type='number' InputProps={{inputProps: {min: 0, max: 5}}} />
                 <Button onClick={() => history.push('/step/understanding')} variant='outlined' className='button'>Next</Button>
             </div>
@@ -29,4 +29,4 @@ const Feeling = () => {
     )
 }
 
-export default Feeling;
+export default Understanding;
