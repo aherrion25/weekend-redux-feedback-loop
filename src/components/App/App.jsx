@@ -6,6 +6,7 @@ import Home from '../Home/Home.jsx'
 import Feeling from '../Feeling/Feeling.jsx';
 import Understanding from '../Understanding/Understanding.jsx';
 import Support from '../Support/Support.jsx';
+import Comments from '../Comments/Comments.jsx';
 import './App.css';
 
 function App() {
@@ -33,8 +34,8 @@ function App() {
     <div className='App'>
       <Router>
         <Header />
-        <Route>
-            <Home exact path='/' />
+        <Route exact path='/'>
+            <Home  />
         </Route>
         <div>
           <Route exact path='/step/feeling'>
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route exact path='/step/support'>
             <Support />
+          </Route>
+          <Route exact path='/step/comments'>
+            <Comments />
           </Route>
 
         </div>

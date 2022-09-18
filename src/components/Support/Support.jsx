@@ -23,7 +23,7 @@ const Support = () => {
             <div>
                 <TextField size='small' value={support}  onChange={setSupport} required id="support" className='input' 
                 type='number' InputProps={{inputProps: {min: 0, max: 5}}} />
-                <Button onClick={() => history.push('/step/comment')} variant='outlined' className='button'>Next</Button>
+                <Button onClick={() => history.push('/step/comments')} variant='outlined' className='button'>Next</Button>
             </div>
         </>
     )

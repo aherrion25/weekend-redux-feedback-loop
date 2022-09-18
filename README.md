@@ -24,9 +24,9 @@ npm run client
 - [x] create component for understanding page (view 2) and navigate on click 'Next' 
 - [x] create a reducer for understanding 
 - [x] have understanding save on click 'Next'
-- [] create a component for support page (view 3) and a navigate on click 'Next'
-- [] create a reducer for support
-- [] have support save on click 'Next'
+- [x] create a component for support page (view 3) and a navigate on click 'Next'
+- [x] create a reducer for support
+- [x] have support save on click 'Next'
 - [] create component for comment page (view 4) and navigate on click 'Next'
 - [] create reducer for comment
 - [] have comment save on click 'Next'
