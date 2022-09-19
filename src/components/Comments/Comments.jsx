@@ -21,7 +21,7 @@ const Comments = () => {
          <h3>Comments or Compliments </h3>
          <div>
             <TextField id='comments' type='text' style={{width:'45%'}}  multiline maxRows={4} value={comments} onChange={setComments} />
-            <Button variant='contained' style={{margin: '1em '}}>Next</Button>
+            <Button onClick={() => history.push('/step/review')} variant='contained' style={{margin: '1em '}}>Next</Button>
 
          </div>
 

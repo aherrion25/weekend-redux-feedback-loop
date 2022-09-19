@@ -37,18 +37,25 @@ const support= (state = 0, action) => {
     return state;
 };
 
+const comments = (state = '', action) => {
+    if (action.type === 'SET_COMMENTS'){
+        return action.payload;
+    } else if (action.type === 'CLEAR_ALL') {
+        return '';
+    }
+    return state;
+}
+
 
 // Redux store 
 const storeInstance = createStore(
     // reducers
     combineReducers(
         {
-
             feeling,
             understanding,
             support,
-
-
+            comments
         }
     ),
     applyMiddleware(logger)

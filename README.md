@@ -27,10 +27,10 @@ npm run client
 - [x] create a component for support page (view 3) and a navigate on click 'Next'
 - [x] create a reducer for support
 - [x] have support save on click 'Next'
-- [] create component for comment page (view 4) and navigate on click 'Next'
-- [] create reducer for comment
-- [] have comment save on click 'Next'
-- [] create review page and navigate on click 'Next'
-- [] have all views (feeling, understanding, support, comment) display on review page
-- [] have views (feeling, understanding, support, comment) POST to server on click 'Submit'
+- [x] create component for comment page (view 4) and navigate on click 'Next'
+- [x] create reducer for comment
+- [x] have comment save on click 'Next'
+- [x] create review page and navigate on click 'Next'
+- [x] have all views (feeling, understanding, support, comment) display on review page
+- [x] have views (feeling, understanding, support, comment) POST to server on click 'Submit'
 - [x] create progress bar
