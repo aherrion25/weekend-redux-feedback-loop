@@ -19,7 +19,7 @@ const Support = () => {
     return(
         <>
             <ProgressBar step={3} />
-            <h3>How do you feel</h3>
+            <h3>How supported do you feel</h3>
             <div>
                 <TextField size='small' value={support}  onChange={setSupport} required id="support" className='input' 
                 type='number' InputProps={{inputProps: {min: 0, max: 5}}} />

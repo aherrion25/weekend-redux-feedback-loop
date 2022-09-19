@@ -42,7 +42,7 @@ const Review = () => {
             <ProgressBar step={5} />
             <h3>Review Page</h3>
             <div>
-                <div style={{margin: '20px'}}>
+                <div style={{margin: '20px 24px'}}>
                     <div>Feeling: {feeling}</div>
                     <div>Understanding: {understanding}</div>
                     <div>Support: {support}</div>
