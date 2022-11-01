@@ -1,9 +1,8 @@
-# Project Name
-## Weekend-Redux-Feedback-Loop
+# Redux-Feedback-Loop
 
 ## Description
 
-For this assignment, I will be creating a feedback form. The feedback form will stretch over 4 views and have a review page with all the information from the previous 4 views and when submitted will go to the database.
+This is an FeedBack form app. The feedback form will stretch over 4 views and have a review page with all the information from the previous 4 views and when submitted will go to the database.
 
 ### SETUP
 
